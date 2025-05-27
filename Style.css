@@ -1,0 +1,297 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(224, 255, 245);
+}
+
+.container {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px gray;
+    position: relative;
+}
+
+#arrow {
+    position: absolute;
+    left: 7%;
+    top: 5%;
+    width: 30px;
+    height: 30px;
+    color: rgb(104, 104, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#arrow:hover {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px white,
+        2px 2px 12px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+#dots {
+    position: absolute;
+    right: 7%;
+    top: 5%;
+    color: rgb(104, 104, 104);
+    width: 30px;
+    height: 30px;
+    color: rgb(104, 104, 104);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dots:hover {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 0px 0px white,
+        2px 2px 12px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 17px solid rgb(245, 245, 245);
+    box-shadow: 5px 2px 12px rgb(185, 185, 185);
+    margin-top: 50px;
+}
+
+.container h1 {
+    font-size: 24px;
+    margin-top: 12px;
+    color: rgb(41, 41, 41);
+}
+
+.container p {
+    margin-top: 8px;
+
+    color: rgb(41, 41, 41);
+}
+
+.icon {
+    display: flex;
+    gap: 22px;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+#fb {
+    color: blue;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: 3px 2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fb:hover {
+    color: blue;
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: -3px -2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#twitter {
+    color: rgb(2, 217, 255);
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: 3px 2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#twitter:hover {
+    color: rgb(2, 217, 255);
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: -3px -2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#insta {
+    font-size: 20px;
+    color: rgb(255, 34, 244);
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: 3px 2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#insta:hover {
+    font-size: 20px;
+    color: rgb(255, 34, 244);
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: -3px -2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#yt {
+    color: rgb(255, 27, 27);
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: 3px 2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#yt:hover {
+    color: rgb(255, 27, 27);
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    border: 1px rgb(230, 230, 230) solid;
+    box-shadow: -3px -2px 8px gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.buttongroup {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+#message {
+    width: 130px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 0.1px solid white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px rgb(218, 218, 218);
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+}
+
+#message:hover {
+    width: 130px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 0.1px solid white;
+    border-radius: 4px;
+    box-shadow: -5px -5px 2px rgb(218, 218, 218);
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#subscribe {
+    width: 130px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 0.1px solid white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 2px rgb(218, 218, 218);
+    font-size: 17px;
+    color: rgb(51, 51, 51);
+}
+
+#subscribe:hover {
+    width: 130px;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 0.1px solid white;
+    border-radius: 4px;
+    box-shadow: -5px -5px 2px rgb(218, 218, 218);
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.likeshare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    margin-top: 38px;
+
+}
+
+.hearticon {
+    color: black;
+}
+
+.commenticon {
+    color: black;
+}
+
+.share {
+    color: black;
+}
